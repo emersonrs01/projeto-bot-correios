@@ -1,0 +1,20 @@
+{
+  "name": "projeto-bot-correios",
+  "version": "1.0.0",
+  "description": "bot para o discord no qual consegue verificar o rastreio do correios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Emerson Da Rocha",
+  "license": "ISC",
+  "dependencies": {
+    "correios-brasil": "^2.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
